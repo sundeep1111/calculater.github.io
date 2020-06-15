@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link type="text/css" rel="stylesheet" href="bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=poppins:300,400,500,600,700,800,900&display=swap">
+    </head>
+<body>
+    <div class="container">
+    <div class="cal col-3 m-auto">
+        <form id='calculater' name='fcal'>
+        <div class="row">
+    <input type="text" id="inputwindow" class="p-2" name="txt">
+    <input type="button" class="clear col-6 text-center pt-3 pr-2 pb-3 pb-3" onclick="calculateclear()" value = "c">
+	<input type="button" class="num col-3 text-center pt-3 pr-2 pb-3 pb-3" value = '/'>
+    <input type="button" class="num col-3 text-center pt-3 pr-2 pb-3 pb-3" value = '*'>
+</div>
+<div class="row">
+	<input type="button" class="num col-3 text-center pt-3 pr-2 pb-3 pb-3" value = '7'>
+	<input type="button" class="num col-3 text-center pt-3 pr-2 pb-3 pb-3" value = '8'>
+	<input type="button" class="num col-3 text-center pt-3 pr-2 pb-3 pb-3" value = '9'>
+    <input type="button" class="num col-3 text-center pt-3 pr-2 pb-3 pb-3" value = '-'>
+</div>
+<div class="row">
+	<input type="button" class="num col-3 text-center pt-3 pr-2 pb-3 pb-3" value = '4'>
+	<input type="button" class="num col-3 text-center pt-3 pr-2 pb-3 pb-3" value = '5'>
+	<input type="button" class="num col-3 text-center pt-3 pr-2 pb-3 pb-3" value = '6'>
+    <input type="button" class="num col-3 text-center pt-3 pr-2 pb-3 pb-3 plus" value = '+'>
+</div>
+<div class="row">
+	<input type="button" class="num col-3 text-center pt-3 pr-2 pb-3 pb-3" value = '3'>
+	<input type="button" class="num col-3 text-center pt-3 pr-2 pb-3 pb-3" value = '2'>
+	<input type="button" class="num col-3 text-center pt-3 pr-2 pb-3 pb-3" value = '1'>
+    <input type="button" class="num col-3 text-center pt-3 pr-2 pb-3 pb-3" value = '0'>
+</div>
+<div class="row">
+	<input type="button" class="num col-3 text-center pt-3 pr-2 pb-3 pb-3" value = '00'>
+	<input type="button" class="num col-3 text-center pt-3 pr-2 pb-3 pb-3" value = '.'>
+    <input type="button" class="col-6 text-center pt-3 pr-2 pb-3 pb-3 equal" onclick="calculateResult()" value="=">
+</div>
+    </form>
+    </div></div>
+    <script src="script.js"></script>
+</body>
+</html>
